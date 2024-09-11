@@ -9,7 +9,8 @@
 }
 
 .hero-text {
-  color: khaki; 
+  /* color: khaki;  */
+  color: slateblue;
   position: absolute;
   bottom: 10%;
   left: 30px;
