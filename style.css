@@ -1,0 +1,22 @@
+
+.hero-image {
+  /* background-image: linear-gradient(rgba(256, 256, 256, 0), rgba(256, 256, 256, 1)), url("./img/hero-image.png"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url("./img/hero-image.png");
+  /* background-image: linear-gradient(hsla(35, 100%, 37%, 0.0), hsla(35, 100%, 37%, 1)), url("./img/hero-image.png"); */
+  height: 85vh;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: khaki; 
+  /* color: slateblue; */
+  position: absolute;
+  bottom: 10%;
+  left: 30px;
+}
+
+.hero-paragraph {
+  display: flex;
+  justify-content: space-around;
+}
