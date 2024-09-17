@@ -13,6 +13,17 @@
 
 <body>
   <header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          My Health Recipes
+        </a>
+        <div class="navbar-nav">
+          <div id="user-name"></div>
+          <div id="user-email"></div>
+        </div>
+      </div>
+    </nav>
     <div class="hero-image">
       <div class="hero-text">
         <h1>My Healthy Recipes</h1>
@@ -33,11 +44,11 @@
   <section class="container">
     <form>
       <div class="row">
-        <div class="col">
+        <div class="col-sm-6">
           <label for="fullname-input">What is your name?</label>
-          <input class="form-control" type="text" name="fullname-input" id="fullname-input" placeholder="name">
+          <input class="form-control" type="text" name="full-name-input" id="full-name-input" placeholder="name">
         </div>
-        <div class="col">
+        <div class="col-sm-6">
           <label for="email-input">Email:</label>
           <input class="form-control" type="text" name="email-input" id="email-input" placeholder="example@example.com">
         </div>
@@ -54,6 +65,7 @@
       &copy;Robert
     </footer>
   </section>
+  <script src="save-user-info.js"></script>
 </body>
 
 </html>
