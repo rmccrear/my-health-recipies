@@ -11,3 +11,5 @@ This is the wireframe...
 - [ ] Text has enough contrast to see.
 - [x] not the entire image
 - [ ] text is not aligned well
+
+## This is a new section!
