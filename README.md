@@ -12,4 +12,4 @@ This is the wireframe...
 - [x] not the entire image
 - [ ] text is not aligned well
 
-## This is a different change.
+## This is a new section!
